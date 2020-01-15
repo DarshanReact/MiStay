@@ -1,0 +1,63 @@
+
+.main-container-div {
+    width: 80%;
+    top:100px;
+    margin: auto;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 9px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.6);
+    position: relative;
+    display: grid;
+    grid-template-columns:22% 32% 26% 20% ;
+    font-size:1.3em;
+
+}
+
+.search-container
+{
+    height: 100%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+
+.book-slots-container
+{
+    background-color: green;
+    height: 100%;
+
+}
+
+.room-guest-container
+{
+    background-color: yellow;
+    height: 100%;
+}
+
+.search-button-container
+{
+    background-color: #ff7701;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100%;
+
+}
+
+
+
+
+.search-button
+{
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color:#fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+

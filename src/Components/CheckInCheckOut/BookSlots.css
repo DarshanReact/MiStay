@@ -1,0 +1,164 @@
+.book-slot-main
+{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.book-slot-sub
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.book-slot-sub-2
+{
+    height:200px;
+    width:100%;
+    position: absolute;
+    top:100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #fff;
+    box-shadow: 0px 6px 7px 1px rgba(0,0,0,0.2);
+    z-index:0;
+    padding:5px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    
+}
+
+.book-slot-sub-2::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+.testdiv
+{
+    height:50px;
+    width:50px;
+}
+
+.scroll-slot{
+
+    height:30px;
+    min-width:250px;
+
+}
+
+.scroll-in-date
+{
+   font-size:0.9em;
+}
+
+.scroll-in-day
+{
+
+
+
+}
+
+
+.slots-main-div
+{
+    position: relative;
+}
+
+.slots
+{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    margin:10px;
+    text-align: center;
+    line-height: 60px;
+    cursor:pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.slots2
+{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    margin:10px;
+    text-align: center;
+    line-height: 60px;
+    cursor:pointer;
+    border-radius: 5px;
+    position: relative;
+    color:white;
+}
+
+
+.slots-overlay
+{
+    position: absolute;
+    height:60px;
+    /* width:0px; */
+    top:0px;
+    border-radius: 5px;
+    z-index:-1;
+    transition: all 0.1s linear;
+    background-color: blueviolet;
+}
+
+.smooth
+{
+    transition: all 0.1s ease-in;
+
+}
+
+.left-scroll
+{ position: absolute;
+    top:50%;    
+    left:10px;
+    background-color:rgba(255, 119, 1,0.6) ;
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.right-scroll
+{
+    position: absolute;
+    top:50%;    
+    right:15px;
+    background-color:rgba(255, 119, 1,0.6) ;
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Checin-label
+{
+    text-transform: uppercase;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+
+.Checout-label
+{
+    box-sizing: border-box;
+
+    text-transform:uppercase;
+    padding:10px;
+
+}
