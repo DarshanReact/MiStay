@@ -37,16 +37,7 @@ class SeacrhBar extends Component
 
     componentDidUpdate()
     {
-        // console.log("The cdu of mistya called")
-        // windowClick(()=>{
-        //     if(this.state.place !== " ")
-        //     {
-        //         // this.setState({
-        //         //     open:'search'
-        //         // })
-        //     }
-        //     console.log("This is window eevene from CDU")
-        // })
+    
         
     }
 
